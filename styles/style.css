@@ -103,9 +103,6 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__brief_title {
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -113,7 +110,6 @@
   font-weight: normal;
   color: #2f80ed;
 }
-
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
@@ -170,6 +166,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 1;
+  list-style: none;
 }
 
 .table__cell {
@@ -179,8 +176,7 @@
 }
 
 .table__heading {
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 20px 0 0 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -190,11 +186,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 0 20px 0;
-}
-
-.table__text_margin_no {
-  margin-bottom: 0;
+  margin: 20px 0 0 0;
 }
 
 /** Feyman **/
@@ -286,7 +278,7 @@
 .table__text_theme_dark {
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
   background-image: url(/how-to-learn/images/kaufman-triangle.svg);
   background-size: contain;
   width: 877px;
@@ -338,7 +330,7 @@
   font-weight: normal;
 }
 
-.footer__columns_content_info {
+.footer__column_content_info {
   color: white;
   margin-bottom: 16px;
 }
@@ -366,7 +358,7 @@
   text-decoration: none;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   margin-bottom: 16px;
 }
 
